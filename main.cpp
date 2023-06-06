@@ -5,7 +5,7 @@ using namespace std;
 #include "student.h"
 
 int main(int argc, char* argv[]) {
- 
+  
   int n= (argc-1)/3;
   student *pt_std=new student[n];
 int i;
